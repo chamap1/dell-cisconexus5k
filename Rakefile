@@ -1,6 +1,6 @@
 require 'rake'
 require 'rspec/core/rake_task'
-
+ 
 desc "Run all RSpec unit tests code examples"
 RSpec::Core::RakeTask.new(:rspec) do |t|
   t.pattern = './spec/unit/**/*_spec.rb'
